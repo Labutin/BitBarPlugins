@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -s https://api.coinbase.com/v2/prices/BTC-USD/buy | /usr/local/bin/jq -r .data.amount
+curl -s https://api.coinbase.com/v2/prices/BTC-USD/spot | /usr/local/bin/jq -r .data.amount
